@@ -1,0 +1,41 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<head>
+
+<body>
+
+<h1>Weather app</h1>
+<p></p>
+
+{% load static %}
+
+<img src ="{% static "app/weather.jpg" %}" alt="My image" width = "304" height = "442"/>
+<!-- <span> My image </span> -->
+<br/>
+<br/>
+
+
+Next is the the api output. Json
+
+
+
+<h2>Weather API</h2>
+<p> Here </p> 
+{% for key,value in dct.items %}
+
+{{ value }}
+
+{% endfor%}
+
+<h1>This works</h1>
+</body>
+</html>
+
+
+
+
